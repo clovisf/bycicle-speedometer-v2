@@ -1528,6 +1528,12 @@
 		)
 	)
 	(junction
+		(at 81.28 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66c5180a-9ad3-4bb1-a26a-58df2a1c39a3")
+	)
+	(junction
 		(at 102.87 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1552,6 +1558,16 @@
 			(type default)
 		)
 		(uuid "5fe06d29-dafe-4740-a8da-449b6c4214c3")
+	)
+	(wire
+		(pts
+			(xy 81.28 102.87) (xy 85.09 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75466a47-9ac6-421e-8117-b8e5042790a1")
 	)
 	(wire
 		(pts
@@ -1586,6 +1602,28 @@
 		(uuid "01fd624c-e066-41cf-956e-9a3962c74a0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 169.0528 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sensor"
+		(shape input)
+		(at 92.71 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0957cdfe-0ab6-4621-8a0c-4502892e6837")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.1056 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1635,6 +1673,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Sensor"
+		(shape input)
+		(at 116.84 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "492ac3f5-cdbc-4f3a-9057-139181da4701")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.4444 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1696,6 +1756,28 @@
 		(uuid "95372857-e7e6-494a-96db-00113c228658")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 169.8994 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 81.28 100.33 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f09a70d-677c-430a-9228-8ed9da1ec434")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 93.7162 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1794,6 +1876,276 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 76.2 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fe6ef99-4f6d-4eeb-b560-df566135d492")
+		(property "Reference" "J3"
+			(at 76.835 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 76.835 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 76.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 76.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a77d11f8-3ad9-4788-8733-469e82625bdd")
+		)
+		(pin "2"
+			(uuid "8bd71612-c7e7-41a1-8047-a06b5a5bf6c3")
+		)
+		(instances
+			(project "bycicle-speedometer-v2"
+				(path "/cd1ae02e-5075-48fd-aeda-d7bc106d32bf"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2af019f8-5c69-42dc-a2ca-60cd10c22202")
+		(property "Reference" "#PWR08"
+			(at 81.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8df500f-5779-40b6-a1c6-da96d5905398")
+		)
+		(instances
+			(project "bycicle-speedometer-v2"
+				(path "/cd1ae02e-5075-48fd-aeda-d7bc106d32bf"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 92.71 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3226f1eb-cb33-4ed5-84f0-91b2108561ea")
+		(property "Reference" "C2"
+			(at 96.52 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 96.52 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 93.6752 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 92.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c901dc4-fb43-4327-8d95-707ba7c1129d")
+		)
+		(pin "2"
+			(uuid "436fbbaf-1d79-483d-987d-2cac49ca934a")
+		)
+		(instances
+			(project "bycicle-speedometer-v2"
+				(path "/cd1ae02e-5075-48fd-aeda-d7bc106d32bf"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ba28152-8fd6-464c-8d58-0174780093db")
+		(property "Reference" "#PWR07"
+			(at 92.71 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "646e72bb-eb6f-4162-a361-0bbb3eef0fea")
+		)
+		(instances
+			(project "bycicle-speedometer-v2"
+				(path "/cd1ae02e-5075-48fd-aeda-d7bc106d32bf"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 170.18 99.06 90)
 		(unit 1)
@@ -1854,6 +2206,144 @@
 			(project "bycicle-speedometer-v2"
 				(path "/cd1ae02e-5075-48fd-aeda-d7bc106d32bf"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 81.28 106.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51990d76-819e-4483-812e-3a1efffbc54d")
+		(property "Reference" "R6"
+			(at 83.82 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47k	"
+			(at 83.82 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 83.058 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 81.28 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "516953b5-487d-455b-95c8-4e58b6c9f05b")
+		)
+		(pin "1"
+			(uuid "b1980fa3-b726-4fd2-8d72-23db0f49453c")
+		)
+		(instances
+			(project "bycicle-speedometer-v2"
+				(path "/cd1ae02e-5075-48fd-aeda-d7bc106d32bf"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58459c5d-428b-4c66-a072-ee55fad355ba")
+		(property "Reference" "R4"
+			(at 88.9 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k	"
+			(at 88.9 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 88.9 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73e8295b-63dd-471c-b152-2bfef68406ba")
+		)
+		(pin "1"
+			(uuid "e09f35aa-fd9a-4a68-ac98-b5d89f6bb485")
+		)
+		(instances
+			(project "bycicle-speedometer-v2"
+				(path "/cd1ae02e-5075-48fd-aeda-d7bc106d32bf"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2072,7 +2562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k	"
 			(at 105.41 76.1999 0)
 			(effects
 				(font
@@ -2081,7 +2571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 101.092 74.93 90)
 			(effects
 				(font
@@ -2149,7 +2639,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 93.98 78.74 0)
 			(effects
 				(font
@@ -2282,7 +2772,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 120.65 106.6799 0)
 			(effects
 				(font
@@ -2291,7 +2781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 117.8052 109.22 0)
 			(effects
 				(font
@@ -2419,7 +2909,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k	"
 			(at 176.53 77.4699 0)
 			(effects
 				(font
@@ -2428,7 +2918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 172.212 76.2 90)
 			(effects
 				(font
@@ -2564,7 +3054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 166.37 100.838 90)
 			(effects
 				(font
@@ -2624,7 +3114,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k	"
 			(at 113.03 85.09 90)
 			(effects
 				(font
@@ -2632,7 +3122,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 113.03 90.678 90)
 			(effects
 				(font
@@ -2769,7 +3259,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 179.07 86.36 0)
 			(effects
 				(font
