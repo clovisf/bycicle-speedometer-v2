@@ -165,248 +165,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x04_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_Pin"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1144,6 +902,142 @@
 				)
 			)
 		)
+		(symbol "Regulator_Linear:AMS1117-3.3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AMS1117-3.3"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMS1117-3.3_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AMS1117-3.3_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push_Dual"
 			(pin_names
 				(offset 1.016) hide)
@@ -1541,6 +1435,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 54.61) (xy 82.55 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13579a60-6d66-4d7b-946f-7229fe77e460")
+	)
+	(wire
+		(pts
 			(xy 102.87 83.82) (xy 116.84 83.82)
 		)
 		(stroke
@@ -1589,6 +1493,16 @@
 		)
 		(uuid "dca497e7-b5fc-480c-b0a2-32694a659773")
 	)
+	(wire
+		(pts
+			(xy 60.96 54.61) (xy 67.31 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea097068-5474-4ded-ab67-98298e84202f")
+	)
 	(global_label "SCL"
 		(shape input)
 		(at 162.56 88.9 0)
@@ -1633,7 +1547,7 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "3V3"
 		(shape input)
 		(at 173.99 72.39 90)
 		(fields_autoplaced yes)
@@ -1645,7 +1559,7 @@
 		)
 		(uuid "157be8a9-807b-4875-b5eb-1539d473dcb7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.99 65.7762 90)
+			(at 173.99 65.8972 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1655,7 +1569,7 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "3V3"
 		(shape input)
 		(at 102.87 71.12 90)
 		(fields_autoplaced yes)
@@ -1667,7 +1581,29 @@
 		)
 		(uuid "3daa3d6e-2949-40d6-a593-b6e26030b547")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.87 64.5062 90)
+			(at 102.87 64.6272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 88.9 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "459aa5c2-d33f-4d5a-be01-680665864c30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.3928 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1721,28 +1657,6 @@
 			)
 		)
 	)
-	(global_label "SDA"
-		(shape input)
-		(at 134.62 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "88ef1bdb-f03a-4284-a969-1282060f5592")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.0667 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Prog"
 		(shape input)
 		(at 162.56 93.98 0)
@@ -1765,7 +1679,7 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "3V3"
 		(shape input)
 		(at 81.28 100.33 90)
 		(fields_autoplaced yes)
@@ -1777,12 +1691,34 @@
 		)
 		(uuid "9f09a70d-677c-430a-9228-8ed9da1ec434")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.28 93.7162 90)
+			(at 81.28 93.8372 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 60.96 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c7b09628-d2c3-44d8-b5d4-c89628096c2b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.3462 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1809,7 +1745,7 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "3V3"
 		(shape input)
 		(at 109.22 88.9 180)
 		(fields_autoplaced yes)
@@ -1821,51 +1757,7 @@
 		)
 		(uuid "f5b06edb-87d2-465f-9fb1-106dd15a19f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.6062 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 134.62 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f7b95350-ee0c-422c-9da3-80714c80a59a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.1272 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC"
-		(shape input)
-		(at 134.62 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f9f2d54f-a8c5-4f5e-a65d-a380235070dd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.0062 54.61 0)
+			(at 102.7272 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2824,73 +2716,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 134.62 52.07 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8acc13ff-37ba-4891-b9d9-7b8d5804c96e")
-		(property "Reference" "#PWR06"
-			(at 128.27 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 52.0699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c1ff94a-c7d8-4704-bc4c-17fee4d0f538")
-		)
-		(instances
-			(project "bycicle-speedometer-v2"
-				(path "/cd1ae02e-5075-48fd-aeda-d7bc106d32bf"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 173.99 76.2 0)
 		(unit 1)
@@ -2955,6 +2780,72 @@
 			(project "bycicle-speedometer-v2"
 				(path "/cd1ae02e-5075-48fd-aeda-d7bc106d32bf"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96fc7c10-0059-4ef0-a7a6-afe0933bd65c")
+		(property "Reference" "#PWR06"
+			(at 74.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f815341-910c-44f0-bcaf-ba5792093a64")
+		)
+		(instances
+			(project "bycicle-speedometer-v2"
+				(path "/cd1ae02e-5075-48fd-aeda-d7bc106d32bf"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3302,44 +3193,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 139.7 57.15 180)
+		(lib_id "Regulator_Linear:AMS1117-3.3")
+		(at 74.93 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d39282d6-b35b-42be-b87a-0fbe6ed9aa08")
-		(property "Reference" "J1"
-			(at 140.97 54.6099 0)
+		(uuid "bfa952f8-5515-429e-bb8f-9e723487cae7")
+		(property "Reference" "U2"
+			(at 74.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 140.97 57.1499 0)
+		(property "Value" "AMS1117-3.3"
+			(at 74.93 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 139.7 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 57.15 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 74.93 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3347,8 +3227,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 139.7 57.15 0)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 77.47 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,22 +3236,28 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "f9c6b5d7-174c-443f-8cc9-9321479e26ba")
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 74.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "3"
-			(uuid "330c8106-f1df-4e7c-8164-fcfbfecc53a7")
+			(uuid "24826094-5c61-4ed8-a840-ea86ad84b6a2")
+		)
+		(pin "2"
+			(uuid "7bb7df2f-90be-4cbb-96b2-928f162583ab")
 		)
 		(pin "1"
-			(uuid "e21fcfdd-1480-46a3-a89f-291761b22e23")
-		)
-		(pin "4"
-			(uuid "f95f945f-498e-4b00-887d-c37cbdbcb76c")
+			(uuid "18411d12-26bb-42ea-827b-0ef39a89c859")
 		)
 		(instances
 			(project "bycicle-speedometer-v2"
 				(path "/cd1ae02e-5075-48fd-aeda-d7bc106d32bf"
-					(reference "J1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
