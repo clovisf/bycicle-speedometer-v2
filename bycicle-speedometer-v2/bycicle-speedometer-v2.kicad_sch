@@ -2442,6 +2442,28 @@
 			)
 		)
 	)
+	(global_label "3V3"
+		(shape input)
+		(at 116.84 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd8dcaca-2659-4ad1-b82f-d8200c515d46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.3472 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 85.09 58.42 0)
@@ -4025,7 +4047,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k	"
 			(at 167.6399 96.52 0)
 			(effects
 				(font
